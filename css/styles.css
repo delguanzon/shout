@@ -1,0 +1,32 @@
+body {
+  background-color: #010101;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+#text {
+  display: flex;
+  font-size: 50px;
+}
+
+
+#img-container {
+  display: hidden;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+}
+#shout-img {
+  position: relative;
+  left: -50%;
+  top: -25%;
+  border: dotted red 1px;
+  width: 500px;
+  height: 200px;
+  background-image: url("../img/shout.gif");
+  background-repeat:  no-repeat;
+  background-size: cover;
+}
